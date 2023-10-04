@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('1-Build'){
+        stage('1-build'){
             steps{
                 sh 'systemctl status jenkins'
             }
